@@ -1,0 +1,14 @@
+Для работы с vue, необходимо создать корневой проект, аналогично django:
+1. sudo npm install -g @vue/cli
+2. vue create `project name`
+3. ~In directory, you should install axios for backend and bulma for scss~ 
+    npm install axios
+    npm install bulma
+4. To start project, run command: npm run serve
+
+In the core project we have:
+1. views - include different pages
+2. store - contain global statement of the whole project
+3. router - is the same as url for django
+4. components - large or small re-usable part of codes
+5. assets - contain images or the same thing that needs website
